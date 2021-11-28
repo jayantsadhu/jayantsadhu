@@ -1,14 +1,26 @@
 # Hi there 👋, I'm Jayant
 
-## I'm Jayant from India, A Technology Enthusiast, Movie Buff, Traveller and a Great Cook!!
-I do Competitive programming and working on design and development. An Engineer working on connecting the world by exploring newest technologies. .
+## I'm Jayant from India, a Technology Enthusiast, Movie Buff, Traveller and a Great Cook!!
+I do Competitive programming and working on design and development. An Engineer working on connecting the world by exploring newest technologies.
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=jayantsadhu)](https://github.com/anuraghazra/github-readme-stats)
+![Profile Banner](https://github.com/jayantsadhu/jayantsadhu/blob/main/githubProfile_banner.jpg)
 
-## Skills and Experience
-* Java
-* Android
-* HTML, CSS, JS
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=jayantsadhu&show_icons=true)  
+ 
+
+## 🥷🏻 Skills and Experience
+* ☕ Java, OOPs
+* 👨🏽‍💻 DSA, SQL, DBMS
+* 📱 Android developer
+* 💻 HTML, CSS, Js
+
+## 📫 Reach out to me:
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/jayantsadhu)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/https://www.linkedin.com/in/jayant-kumar-sadhu-a747731b3//)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/engineerkid29/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40'>](https://twitter.com/@iamJayant29)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://jayantsadhu.github.io/)  
+
+😄 Pronouns: He/Him
+
+![Profile views](https://gpvc.arturio.dev/jayantsadhu) 
+
 
 <!--
 **jayantsadhu/jayantsadhu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
