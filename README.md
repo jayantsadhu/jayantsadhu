@@ -1,6 +1,6 @@
 # Hi there 👋, I'm Jayant
 
-## I'm Jayant from India, a Technology Enthusiast, Movie Buff, Traveller and a Great Cook!!
+## I'm Jayant, a Tech Enthusiast, Movie Buff, Traveller and a Great Cook!!
 I do Competitive programming and working on design and development. An Engineer working on connecting the world by exploring newest technologies.
 
 <!--img src="https://github.com/jayantsadhu/jayantsadhu/blob/main/githubProfile_banner.jpg"-->
@@ -8,7 +8,7 @@ I do Competitive programming and working on design and development. An Engineer 
 
 ## 🥷🏻 Skills and Experience
 * ☕ Java, Python, JS
-* 👨🏽‍💻 Full Stack Developer (React-js, Django)
+* 👨🏽‍💻 Full Stack Developer (React-js, Django, Spring Boot)
 * 📱 Android Developer
 * 💻 HTML, XML, CSS, Bootstrap
 <!-- 
