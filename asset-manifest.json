@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/jayantsadhu/static/css/main.f855e6bc.css",
-    "main.js": "/jayantsadhu/static/js/main.7af83329.js",
+    "main.js": "/jayantsadhu/static/js/main.a5acbef4.js",
     "static/js/453.1407b060.chunk.js": "/jayantsadhu/static/js/453.1407b060.chunk.js",
     "static/media/jayant.jpg": "/jayantsadhu/static/media/jayant.d0558fc744722187b69b.jpg",
     "index.html": "/jayantsadhu/index.html",
     "main.f855e6bc.css.map": "/jayantsadhu/static/css/main.f855e6bc.css.map",
-    "main.7af83329.js.map": "/jayantsadhu/static/js/main.7af83329.js.map",
+    "main.a5acbef4.js.map": "/jayantsadhu/static/js/main.a5acbef4.js.map",
     "453.1407b060.chunk.js.map": "/jayantsadhu/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.7af83329.js"
+    "static/js/main.a5acbef4.js"
   ]
 }
