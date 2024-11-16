@@ -1,3 +1,13 @@
+export const PAGES = [
+  "HOME",
+  "ABOUT",
+  "EXPERIENCE",
+  "PROJECTS",
+  "SKILLS",
+  "EDUCATION",
+  "CONTACT ME",
+];
+
 export const EXPERIENCES = [
   {
     title: "Samsung R&D Institute India Bangalore",

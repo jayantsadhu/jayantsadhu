@@ -19,8 +19,6 @@ const Home = () => {
           <Grid size={{ xs: 12, md: 6 }}>
             <Box
               sx={{
-                maxWidth: "400px",
-                padding: "20px",
                 display: "grid",
                 placeItems: "center",
               }}
@@ -29,8 +27,8 @@ const Home = () => {
                 src={jayant}
                 alt="Profile"
                 style={{
-                  width: "350px",
-                  height: "350px",
+                  maxWidth: "350px",
+                  maxHeight: "350px",
                   borderRadius: "50%",
                 }}
               />
@@ -39,7 +37,6 @@ const Home = () => {
           <Grid size={{ xs: 12, md: 6 }}>
             <Box
               sx={{
-                maxWidth: "450px",
                 display: "grid",
                 placeItems: "center",
                 height: "350px",
