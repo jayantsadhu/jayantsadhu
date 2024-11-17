@@ -3,6 +3,7 @@ import Home from "./components/home/Home";
 import MyNavbar from "./components/navbar/Navbar";
 import AboutMe from "./components/about/AboutMe";
 import Experience from "./components/experience/Experience";
+import Projects from "./components/projects/Projects";
 
 export const Layout = () => {
   return (
@@ -11,6 +12,7 @@ export const Layout = () => {
       <Home />
       <AboutMe />
       <Experience />
+      <Projects />
     </Stack>
   );
 };

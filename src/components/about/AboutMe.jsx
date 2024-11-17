@@ -4,7 +4,10 @@ const AboutMe = () => {
   return (
     <Paper>
       <Box sx={{ backgroundColor: "#111927" }} padding={"100px 20px"}>
-        <Box sx={{ width: { xs: "90%", md: "70%" } }} margin="0 auto">
+        <Box
+          sx={{ width: { xs: "95%", sm: "90%", md: "80%", lg: "70%" } }}
+          margin="0 auto"
+        >
           <Stack
             color="white"
             textAlign={"center"}
