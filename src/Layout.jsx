@@ -4,6 +4,9 @@ import MyNavbar from "./components/navbar/Navbar";
 import AboutMe from "./components/about/AboutMe";
 import Experience from "./components/experience/Experience";
 import Projects from "./components/projects/Projects";
+import Skills from "./components/skills/Skills";
+import Education from "./components/education/Education";
+import ContactMe from "./components/contact/ContactMe";
 
 export const Layout = () => {
   return (
@@ -13,6 +16,9 @@ export const Layout = () => {
       <AboutMe />
       <Experience />
       <Projects />
+      <Skills />
+      <Education />
+      <ContactMe />
     </Stack>
   );
 };

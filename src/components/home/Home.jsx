@@ -19,15 +19,19 @@ import jayant from "./../../jayant.jpg";
 
 const Home = () => {
   return (
-    <Box sx={{ padding: "60px 0px 100px 0px" }}>
+    <Box padding={{ xs: "50px 0px 50px 0px", sm: "60px 0px 100px 0px" }}>
       <Container
         sx={{
           width: { xs: "95%", sm: "90%", md: "80%", lg: "70%" },
           margin: "0 auto",
         }}
       >
-        <Grid container spacing={3} padding={"20px 0px"}>
-          <Grid item xs={12} md={6} margin={"0 auto"}>
+        <Grid
+          container
+          spacing={3}
+          padding={{ xs: "10px 0px", sm: "20px 0px" }}
+        >
+          <Grid xs={12} md={6} margin={"0 auto"}>
             <Box
               sx={{
                 display: "grid",
@@ -49,7 +53,7 @@ const Home = () => {
               />
             </Box>
           </Grid>
-          <Grid item xs={12} md={6} margin={"0 auto"}>
+          <Grid xs={12} md={6} margin={"0 auto"}>
             <Box
               sx={{
                 padding: "20px 0px",
@@ -77,9 +81,9 @@ const Home = () => {
                   <span style={{ color: "#9E77ED", fontWeight: "bold" }}>
                     Jayant Kumar Sadhu
                   </span>
-                  . A passionate Full-Stack Java Developer and blog writer based
-                  in India📍. The will to learn runs through my veins just as
-                  much as the will to share knowledge.
+                  . A passionate Android, Full-Stack Java Developer and blog
+                  writer based in India📍. Feel most satisfaction and thrive on
+                  new challenges, keeping the learning curve exponent.
                 </Typography>
                 <Box>
                   <Stack direction={"row"} spacing={1}>

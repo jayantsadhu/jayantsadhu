@@ -1,11 +1,10 @@
 import { Box, Stack, Typography } from "@mui/material";
-import Pjtcards from "./Pjtcards";
-import { EXPERIENCES } from "./../../userdata/configs";
+import Pjtcard from "./Pjtcard";
+import { PROJECTS } from "./../../userdata/configs";
 
 const Projects = () => {
-  console.log(EXPERIENCES);
   return (
-    <Box margin={"50px 20px"}>
+    <Box margin={{ xs: "25px 10px", sm: "50px 10px" }}>
       <Stack
         sx={{ width: { xs: "95%", sm: "90%", md: "80%", lg: "70%" } }}
         margin={"0 auto"}
@@ -20,8 +19,8 @@ const Projects = () => {
           </Typography>
         </Stack>
         <Stack spacing={1}>
-          {EXPERIENCES.map((row) => (
-            <Pjtcards row={row} />
+          {PROJECTS.map((row, idx) => (
+            <Pjtcard key={idx} row={row} />
           ))}
         </Stack>
       </Stack>

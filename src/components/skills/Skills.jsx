@@ -1,10 +1,11 @@
 import { Box, Stack, Typography } from "@mui/material";
-import Expcard from "./Expcard";
-import { EXPERIENCES } from "./../../userdata/configs";
+import Grid from "@mui/material/Grid2";
+import Skillscard from "./Skillscard";
+import { SKILLS } from "./../../userdata/configs";
 
-const Experience = () => {
+const Skills = () => {
   return (
-    <Box margin={{ xs: "50px 10px 25px 10px", sm: "100px 10px 50px 10px" }}>
+    <Box margin={{ xs: "25px 10px", sm: "50px 10px" }}>
       <Stack
         sx={{ width: { xs: "95%", sm: "90%", md: "80%", lg: "70%" } }}
         margin={"0 auto"}
@@ -12,20 +13,22 @@ const Experience = () => {
       >
         <Stack textAlign={"center"} color={"white"}>
           <Typography fontSize={"1.7rem"} lineHeight={0.8} fontWeight={"bold"}>
-            2.5 YEARS OF
+            TECHNICAL
           </Typography>
           <Typography color="#7e8fa6" fontSize={"1.7rem"} fontWeight={"bold"}>
-            EXPERIENCE
+            SKILLS
           </Typography>
         </Stack>
-        <Stack spacing={1}>
-          {EXPERIENCES.map((row, idx) => (
-            <Expcard key={idx} row={row} />
+        <Grid container spacing={3} width={"100%"} margin={"0 auto"}>
+          {SKILLS.map((row, idx) => (
+            <Grid key={idx} size={{ xs: 6, sm: 4, md: 3 }}>
+              <Skillscard row={row} />
+            </Grid>
           ))}
-        </Stack>
+        </Grid>
       </Stack>
     </Box>
   );
 };
 
-export default Experience;
+export default Skills;

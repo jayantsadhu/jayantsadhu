@@ -1,7 +1,7 @@
 import { Box, Button, Paper, Stack, Typography } from "@mui/material";
 import CallMadeIcon from "@mui/icons-material/CallMade";
 
-const Pjtcards = ({ row }) => {
+const Expcard = ({ row }) => {
   return (
     <Paper sx={{ backgroundColor: "#111927", borderRadius: "16px" }}>
       <Box>
@@ -36,4 +36,4 @@ const Pjtcards = ({ row }) => {
   );
 };
 
-export default Pjtcards;
+export default Expcard;
