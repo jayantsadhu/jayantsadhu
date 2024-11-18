@@ -8,8 +8,20 @@ import {
   Typography,
 } from "@mui/material";
 import TelegramIcon from "@mui/icons-material/Telegram";
+import { useState } from "react";
 
 const ContactMe = () => {
+  const [formData, setFormdata] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormdata({ ...formData, [e.target.name]: e.target.value });
+  };
+
   return (
     <Box margin={{ xs: "25px 10px", sm: "50px 10px" }}>
       <Stack
@@ -32,6 +44,8 @@ const ContactMe = () => {
               <FormLabel sx={{ color: "white" }}>Full Name*</FormLabel>
               <InputBase
                 name="name"
+                value={formData.name}
+                onChange={handleChange}
                 placeholder="eg: Joy"
                 sx={{
                   border: "1px solid",
@@ -53,6 +67,8 @@ const ContactMe = () => {
             <FormControl fullWidth>
               <FormLabel sx={{ color: "white" }}>Email*</FormLabel>
               <InputBase
+                value={formData.email}
+                onChange={handleChange}
                 name="email"
                 placeholder="eg: email@example.com"
                 sx={{
@@ -74,6 +90,8 @@ const ContactMe = () => {
             <FormControl fullWidth>
               <FormLabel sx={{ color: "white" }}>Subject*</FormLabel>
               <InputBase
+                value={formData.subject}
+                onChange={handleChange}
                 name="subject"
                 placeholder="Subject"
                 sx={{
@@ -97,6 +115,8 @@ const ContactMe = () => {
               <InputBase
                 multiline
                 rows={6}
+                value={formData.message}
+                onChange={handleChange}
                 name="message"
                 placeholder="Enter your message here..."
                 sx={{
