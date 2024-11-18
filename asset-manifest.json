@@ -1,16 +1,26 @@
 {
   "files": {
     "main.css": "/jayantsadhu/static/css/main.f855e6bc.css",
-    "main.js": "/jayantsadhu/static/js/main.98449d3a.js",
+    "main.js": "/jayantsadhu/static/js/main.8a124458.js",
     "static/js/453.1407b060.chunk.js": "/jayantsadhu/static/js/453.1407b060.chunk.js",
+    "static/media/food_curves.jpg": "/jayantsadhu/static/media/food_curves.8f281411c7c9fe36c3a9.jpg",
     "static/media/jayant.jpg": "/jayantsadhu/static/media/jayant.d0558fc744722187b69b.jpg",
+    "static/media/news_app.jpg": "/jayantsadhu/static/media/news_app.0118142ff0015d8086bb.jpg",
+    "static/media/conduit_app.jpg": "/jayantsadhu/static/media/conduit_app.4ea48f2e60cbec09b182.jpg",
+    "static/media/java_logo.png": "/jayantsadhu/static/media/java_logo.fdabd4e11f1235e4e8e0.png",
+    "static/media/django_badge.png": "/jayantsadhu/static/media/django_badge.ecc6874c258f009aae26.png",
+    "static/media/android.png": "/jayantsadhu/static/media/android.d9fe771773d4a055181d.png",
+    "static/media/spring_boot_logo.png": "/jayantsadhu/static/media/spring_boot_logo.fddb3bc55b6d616c47f3.png",
+    "static/media/jac_logo.jpeg": "/jayantsadhu/static/media/jac_logo.6972e349180f177f60b4.jpeg",
+    "static/media/pk_roy_logo.jpeg": "/jayantsadhu/static/media/pk_roy_logo.f179fdfa2abad19ee9e2.jpeg",
+    "static/media/jadavpur_uni_logo.png": "/jayantsadhu/static/media/jadavpur_uni_logo.91d5d7f4b547e41129f4.png",
     "index.html": "/jayantsadhu/index.html",
     "main.f855e6bc.css.map": "/jayantsadhu/static/css/main.f855e6bc.css.map",
-    "main.98449d3a.js.map": "/jayantsadhu/static/js/main.98449d3a.js.map",
+    "main.8a124458.js.map": "/jayantsadhu/static/js/main.8a124458.js.map",
     "453.1407b060.chunk.js.map": "/jayantsadhu/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.98449d3a.js"
+    "static/js/main.8a124458.js"
   ]
 }
