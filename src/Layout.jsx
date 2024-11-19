@@ -7,6 +7,7 @@ import Projects from "./components/projects/Projects";
 import Skills from "./components/skills/Skills";
 import Education from "./components/education/Education";
 import ContactMe from "./components/contact/ContactMe";
+import Footer from "./components/footer/Footer";
 
 export const Layout = () => {
   return (
@@ -19,6 +20,7 @@ export const Layout = () => {
       <Skills />
       <Education />
       <ContactMe />
+      <Footer />
     </Stack>
   );
 };

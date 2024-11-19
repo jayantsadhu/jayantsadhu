@@ -15,7 +15,8 @@ import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import DownloadForOfflineIcon from "@mui/icons-material/DownloadForOffline";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import jayant from "./../../jayant.jpg";
+import jayant from "./../../userdata/jayant.jpg";
+import { COLORS } from "./../../userdata/configs";
 
 const Home = () => {
   return (
@@ -62,7 +63,7 @@ const Home = () => {
                 maxWidth: "450px",
                 width: "100%",
               }}
-              color={"white"}
+              color={COLORS.TEXT}
               margin={"0 auto"}
             >
               <Stack spacing={1}>
@@ -76,9 +77,14 @@ const Home = () => {
                 >
                   Full-Stack Java Developer
                 </Typography>
-                <Typography color="#a0aec0">
+                <Typography color={COLORS.TEXT_SHADE}>
                   Hello, I'm{" "}
-                  <span style={{ color: "#9E77ED", fontWeight: "bold" }}>
+                  <span
+                    style={{
+                      color: COLORS.PUPLE_HIGHLIGHT,
+                      fontWeight: "bold",
+                    }}
+                  >
                     Jayant Kumar Sadhu
                   </span>
                   . A passionate Android, Full-Stack Java Developer and blog

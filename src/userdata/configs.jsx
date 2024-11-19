@@ -13,6 +13,14 @@ import juniv from "./jadavpur_uni_logo.png";
 import pkroy from "./pk_roy_logo.jpeg";
 import jac from "./jac_logo.jpeg";
 
+export const COLORS = {
+  PUPLE_HIGHLIGHT: "#9E77ED",
+  CARD_SHADE: "#111927",
+  TEXT_SHADE: "#A0AEC0",
+  TEXT: "#FFFFFF",
+  HEADING_SHADE: "#7E8FA6",
+};
+
 export const PAGES = [
   "HOME",
   "ABOUT",

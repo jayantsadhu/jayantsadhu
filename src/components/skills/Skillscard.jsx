@@ -1,4 +1,5 @@
 import { Avatar, Box, Stack, Typography } from "@mui/material";
+import { COLORS } from "./../../userdata/configs";
 
 const Skillscard = ({ row }) => {
   return (
@@ -10,7 +11,7 @@ const Skillscard = ({ row }) => {
             sx={{
               width: "60px",
               height: "60px",
-              backgroundColor: "white",
+              backgroundColor: COLORS.TEXT,
               //   padding: "8px",
             }}
           >
@@ -26,7 +27,7 @@ const Skillscard = ({ row }) => {
           </Avatar>
         </Box>
         <Stack padding={"5px"}>
-          <Typography color="white">{row.skill}</Typography>
+          <Typography color={COLORS.TEXT}>{row.skill}</Typography>
           {/* <Typography>{row.usage}</Typography> */}
         </Stack>
       </Stack>

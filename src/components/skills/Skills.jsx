@@ -1,7 +1,7 @@
 import { Box, Stack, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import Skillscard from "./Skillscard";
-import { SKILLS } from "./../../userdata/configs";
+import { SKILLS, COLORS } from "./../../userdata/configs";
 
 const Skills = () => {
   return (
@@ -11,11 +11,15 @@ const Skills = () => {
         margin={"0 auto"}
         spacing={3}
       >
-        <Stack textAlign={"center"} color={"white"}>
+        <Stack textAlign={"center"} color={COLORS.TEXT}>
           <Typography fontSize={"1.7rem"} lineHeight={0.8} fontWeight={"bold"}>
             TECHNICAL
           </Typography>
-          <Typography color="#7e8fa6" fontSize={"1.7rem"} fontWeight={"bold"}>
+          <Typography
+            color={COLORS.HEADING_SHADE}
+            fontSize={"1.7rem"}
+            fontWeight={"bold"}
+          >
             SKILLS
           </Typography>
         </Stack>

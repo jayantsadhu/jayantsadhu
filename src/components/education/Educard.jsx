@@ -1,5 +1,6 @@
 import { Avatar, Box, Link, Stack, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid2";
+import { COLORS } from "./../../userdata/configs";
 
 const Educard = ({ row }) => {
   return (
@@ -29,12 +30,12 @@ const Educard = ({ row }) => {
               </Link>
             </Box>
             <Stack padding={{ sm: "10px" }}>
-              <Typography color="white" fontWeight={"bold"}>
+              <Typography color={COLORS.TEXT} fontWeight={"bold"}>
                 {row.school}
               </Typography>
-              <Typography color="#a0aec0">{row.degree}</Typography>
+              <Typography color={COLORS.TEXT_SHADE}>{row.degree}</Typography>
               <Typography
-                color="#a0aec0"
+                color={COLORS.TEXT_SHADE}
                 sx={{ fontSize: { xs: "0.9rem", sm: "1rem" } }}
               >
                 {row.dept}
@@ -44,7 +45,7 @@ const Educard = ({ row }) => {
         </Grid>
         <Grid
           size={{ xs: 12, sm: 3, md: 2 }}
-          color={"white"}
+          color={COLORS.TEXT}
           padding={{ sm: "10px" }}
         >
           <Stack
@@ -52,7 +53,7 @@ const Educard = ({ row }) => {
             spacing={{ xs: 2, sm: 0 }}
           >
             <Typography>{row.location}</Typography>
-            <Typography color="#a0aec0">{row.dates}</Typography>
+            <Typography color={COLORS.TEXT_SHADE}>{row.dates}</Typography>
             <Typography>{row.grade}</Typography>
           </Stack>
         </Grid>

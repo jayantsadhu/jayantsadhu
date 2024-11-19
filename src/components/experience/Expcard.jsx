@@ -1,9 +1,10 @@
 import { Box, Button, Paper, Stack, Typography } from "@mui/material";
 import CallMadeIcon from "@mui/icons-material/CallMade";
+import { COLORS } from "./../../userdata/configs";
 
 const Expcard = ({ row }) => {
   return (
-    <Paper sx={{ backgroundColor: "#111927", borderRadius: "16px" }}>
+    <Paper sx={{ backgroundColor: COLORS.CARD_SHADE, borderRadius: "16px" }}>
       <Box>
         <Button
           href="#"
@@ -14,18 +15,20 @@ const Expcard = ({ row }) => {
           }}
         >
           <Box padding={"20px"}>
-            <Stack color={"white"}>
+            <Stack color={COLORS.TEXT}>
               <Stack direction={"row"} justifyContent={"space-between"}>
                 <Typography fontSize={"1rem"} fontWeight={"bold"}>
                   {row.title}
                 </Typography>
                 <CallMadeIcon />
               </Stack>
-              <Typography color="#9E77ED">{row.designation}</Typography>
-              <Typography marginTop={"10px"} color="#a0aec0">
+              <Typography color={COLORS.PUPLE_HIGHLIGHT}>
+                {row.designation}
+              </Typography>
+              <Typography marginTop={"10px"} color={COLORS.TEXT_SHADE}>
                 {row.description}
               </Typography>
-              <Typography marginTop={"10px"} color="#a0aec0">
+              <Typography marginTop={"10px"} color={COLORS.TEXT_SHADE}>
                 {row.dates}
               </Typography>
             </Stack>

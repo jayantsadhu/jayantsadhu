@@ -1,9 +1,10 @@
 import { Box, Button, Paper, Stack, Typography } from "@mui/material";
 import CallMadeIcon from "@mui/icons-material/CallMade";
+import { COLORS } from "./../../userdata/configs";
 
 const Pjtcard = ({ row }) => {
   return (
-    <Paper sx={{ backgroundColor: "#111927", borderRadius: "16px" }}>
+    <Paper sx={{ backgroundColor: COLORS.CARD_SHADE, borderRadius: "16px" }}>
       <Box>
         <Button
           href="#"
@@ -34,7 +35,7 @@ const Pjtcard = ({ row }) => {
                   <CallMadeIcon />
                 </Stack>
                 <Typography
-                  color="#a0aec0"
+                  color={COLORS.TEXT_SHADE}
                   sx={{
                     display: "block",
                     width: "100%",

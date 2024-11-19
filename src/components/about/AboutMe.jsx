@@ -1,11 +1,12 @@
 import { Box, Paper, Stack, Typography } from "@mui/material";
 import { ABOUTME } from "./../../userdata/configs";
+import { COLORS } from "./../../userdata/configs";
 
 const AboutMe = () => {
   return (
     <Paper>
       <Box
-        sx={{ backgroundColor: "#111927" }}
+        sx={{ backgroundColor: COLORS.CARD_SHADE }}
         padding={{ xs: "50px 10px", sm: "100px 20px" }}
       >
         <Box
@@ -13,7 +14,7 @@ const AboutMe = () => {
           margin="0 auto"
         >
           <Stack
-            color="white"
+            color={COLORS.TEXT}
             textAlign={"center"}
             sx={{
               fontFamily: "Inter, BlinkMacSystemFont, Segoe UI",

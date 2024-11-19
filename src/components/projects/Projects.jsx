@@ -1,6 +1,6 @@
 import { Box, Stack, Typography } from "@mui/material";
 import Pjtcard from "./Pjtcard";
-import { PROJECTS } from "./../../userdata/configs";
+import { PROJECTS, COLORS } from "./../../userdata/configs";
 
 const Projects = () => {
   return (
@@ -10,11 +10,15 @@ const Projects = () => {
         margin={"0 auto"}
         spacing={3}
       >
-        <Stack textAlign={"center"} color={"white"}>
+        <Stack textAlign={"center"} color={COLORS.TEXT}>
           <Typography fontSize={"1.7rem"} lineHeight={0.8} fontWeight={"bold"}>
             RECENT
           </Typography>
-          <Typography color="#7e8fa6" fontSize={"1.7rem"} fontWeight={"bold"}>
+          <Typography
+            color={COLORS.HEADING_SHADE}
+            fontSize={"1.7rem"}
+            fontWeight={"bold"}
+          >
             PROJECTS
           </Typography>
         </Stack>

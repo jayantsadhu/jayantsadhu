@@ -9,7 +9,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Box from "@mui/material/Box";
 import Collapse from "@mui/material/Collapse";
 import ClearIcon from "@mui/icons-material/Clear";
-import { PAGES } from "./../../userdata/configs";
+import { PAGES, COLORS } from "./../../userdata/configs";
 
 const MyNavbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,7 +23,7 @@ const MyNavbar = () => {
   };
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: "#111927" }}>
+    <AppBar position="static" sx={{ backgroundColor: COLORS.CARD_SHADE }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <IconButton
@@ -78,7 +78,7 @@ const MyNavbar = () => {
           <Box
             sx={{
               display: { xs: "block", md: "none" },
-              backgroundColor: "#111927",
+              backgroundColor: COLORS.CARD_SHADE,
               padding: "1rem",
             }}
             onClick={handleCloseMenu}
