@@ -10,8 +10,9 @@ import {
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import TelegramIcon from "@mui/icons-material/Telegram";
-import { COLORS } from "./../../userdata/configs";
+import { COLORS, EMAILJS } from "./../../userdata/configs";
 import { useState } from "react";
+import emailjs from "emailjs-com";
 
 const ContactMe = () => {
   const [formData, setFormdata] = useState({
@@ -23,6 +24,48 @@ const ContactMe = () => {
 
   const handleChange = (e) => {
     setFormdata({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const isNameSubjectValid = (name) => {
+    return name.length === 0 || name.length >= 3;
+  };
+
+  const isEmailValid = (email) => {
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return email.length === 0 || regex.test(email);
+  };
+
+  const isFormValid = () => {
+    return (
+      formData.name.length >= 3 &&
+      formData.subject.length >= 5 &&
+      isEmailValid(formData.email) &&
+      formData.email.length > 0
+    );
+  };
+
+  const onSubmit = () => {
+    try {
+      if (isFormValid()) {
+        emailjs
+          .send(
+            EMAILJS.SERVICE_ID,
+            EMAILJS.TEMPLATE_ID,
+            formData,
+            EMAILJS.USER_ID
+          )
+          .then(
+            (resp) => {
+              alert("Message has been sent successfully");
+            },
+            (error) => {
+              alert("Failed to send message, please use direct mailing!");
+            }
+          );
+      }
+    } catch (err) {
+      console.log("error during message submission!", err);
+    }
   };
 
   return (
@@ -76,16 +119,18 @@ const ContactMe = () => {
                 <FormLabel sx={{ color: COLORS.TEXT }}>Full Name*</FormLabel>
                 <InputBase
                   name="name"
+                  error={formData.name.length < 3}
                   value={formData.name}
                   onChange={handleChange}
                   placeholder="eg: Joy"
                   sx={{
                     border: "1px solid",
-                    borderColor: "gray",
+                    borderColor: isNameSubjectValid(formData.name)
+                      ? "gray"
+                      : "red",
                     borderRadius: "8px",
                     padding: "8px 12px",
                     width: "100%",
-                    // backgroundColor: "#edf2f7",
                     input: {
                       "&::placeholder": {
                         color: COLORS.HEADING_SHADE,
@@ -105,7 +150,7 @@ const ContactMe = () => {
                   placeholder="eg: email@example.com"
                   sx={{
                     border: "1px solid",
-                    borderColor: "gray",
+                    borderColor: isEmailValid(formData.email) ? "gray" : "red",
                     borderRadius: "8px",
                     padding: "8px 12px",
                     width: "100%",
@@ -128,7 +173,9 @@ const ContactMe = () => {
                   placeholder="Subject"
                   sx={{
                     border: "1px solid",
-                    borderColor: "gray",
+                    borderColor: isNameSubjectValid(formData.subject)
+                      ? "gray"
+                      : "red",
                     borderRadius: "8px",
                     padding: "8px 12px",
                     width: "100%",
@@ -168,7 +215,7 @@ const ContactMe = () => {
                   }}
                 />
               </FormControl>
-              <Button variant="contained">
+              <Button variant="contained" onClick={onSubmit}>
                 Send Message <TelegramIcon sx={{ marginLeft: "10px" }} />
               </Button>
             </Stack>

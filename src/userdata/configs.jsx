@@ -21,6 +21,12 @@ export const COLORS = {
   HEADING_SHADE: "#7E8FA6",
 };
 
+export const EMAILJS = {
+  SERVICE_ID: "service_pes2r8m",
+  TEMPLATE_ID: "template_jkyhvnk",
+  USER_ID: "8Dk8tFuB_gzmAK5O9",
+};
+
 export const PAGES = [
   "HOME",
   "ABOUT",
