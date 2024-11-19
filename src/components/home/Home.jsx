@@ -75,7 +75,7 @@ const Home = () => {
                     fontStyle: "normal",
                   }}
                 >
-                  Full-Stack Java Developer
+                  Full-Stack & Android Developer
                 </Typography>
                 <Typography color={COLORS.TEXT_SHADE}>
                   Hello, I'm{" "}
@@ -88,8 +88,8 @@ const Home = () => {
                     Jayant Kumar Sadhu
                   </span>
                   . A passionate Android, Full-Stack Java Developer and blog
-                  writer based in India📍. Feel most satisfaction and thrive on
-                  new challenges, keeping the learning curve exponent.
+                  writer based in India📍. I feel most satisfaction and thrive
+                  on new challenges, keeping the learning curve exponent.
                 </Typography>
                 <Box>
                   <Stack direction={"row"} spacing={1}>
