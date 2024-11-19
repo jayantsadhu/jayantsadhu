@@ -1,6 +1,6 @@
 import { Box, Stack, Typography } from "@mui/material";
 import Pjtcard from "./Pjtcard";
-import { PROJECTS, COLORS } from "./../../userdata/configs";
+import { PROJECTS, COLORS } from "../../configs";
 
 const Projects = () => {
   return (

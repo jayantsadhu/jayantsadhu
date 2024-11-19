@@ -9,7 +9,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Box from "@mui/material/Box";
 import Collapse from "@mui/material/Collapse";
 import ClearIcon from "@mui/icons-material/Clear";
-import { PAGES, COLORS } from "./../../userdata/configs";
+import { PAGES, COLORS } from "../../configs";
 
 const MyNavbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -61,7 +61,7 @@ const MyNavbar = () => {
             variant="h6"
             noWrap
             component="a"
-            href="/"
+            href="#"
             sx={{
               textAlign: "right",
               fontWeight: "bold",

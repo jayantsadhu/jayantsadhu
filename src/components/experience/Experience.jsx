@@ -1,6 +1,6 @@
 import { Box, Stack, Typography } from "@mui/material";
 import Expcard from "./Expcard";
-import { EXPERIENCES, COLORS } from "./../../userdata/configs";
+import { EXPERIENCES, COLORS } from "../../configs";
 
 const Experience = () => {
   return (

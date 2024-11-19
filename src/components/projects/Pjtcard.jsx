@@ -1,6 +1,6 @@
 import { Box, Button, Paper, Stack, Typography } from "@mui/material";
 import CallMadeIcon from "@mui/icons-material/CallMade";
-import { COLORS } from "./../../userdata/configs";
+import { COLORS } from "../../configs";
 
 const Pjtcard = ({ row }) => {
   return (

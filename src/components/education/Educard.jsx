@@ -1,6 +1,6 @@
 import { Avatar, Box, Link, Stack, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid2";
-import { COLORS } from "./../../userdata/configs";
+import { COLORS } from "../../configs";
 
 const Educard = ({ row }) => {
   return (

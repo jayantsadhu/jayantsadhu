@@ -1,5 +1,5 @@
 import { Avatar, Box, Stack, Typography } from "@mui/material";
-import { COLORS } from "./../../userdata/configs";
+import { COLORS } from "../../configs";
 
 const Skillscard = ({ row }) => {
   return (

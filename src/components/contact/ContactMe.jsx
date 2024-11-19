@@ -10,7 +10,7 @@ import {
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import TelegramIcon from "@mui/icons-material/Telegram";
-import { COLORS, EMAILJS } from "./../../userdata/configs";
+import { COLORS, EMAILJS } from "../../configs";
 import { useState } from "react";
 import emailjs from "emailjs-com";
 

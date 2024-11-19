@@ -1,7 +1,7 @@
 import { Box, Stack, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import Skillscard from "./Skillscard";
-import { SKILLS, COLORS } from "./../../userdata/configs";
+import { SKILLS, COLORS } from "../../configs";
 
 const Skills = () => {
   return (

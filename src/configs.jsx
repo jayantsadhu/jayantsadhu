@@ -1,17 +1,17 @@
-import food_curves from "./food_curves.jpg";
-import news_app from "./news_app.jpg";
-import conduit_app from "./conduit_app.jpg";
-import java from "./java_logo.png";
-import android from "./android.png";
-import kotlin from "./kotlin_logo.png";
-import python from "./python_logo.png";
-import django from "./django_badge.png";
-import reactjs from "./react_js_logo.png";
-import mongodb from "./mongo_db_logo.png";
-import springboot from "./spring_boot_logo.png";
-import juniv from "./jadavpur_uni_logo.png";
-import pkroy from "./pk_roy_logo.jpeg";
-import jac from "./jac_logo.jpeg";
+import food_curves from "./assets/food_curves.jpg";
+import news_app from "./assets/news_app.jpg";
+import conduit_app from "./assets/conduit_app.jpg";
+import java from "./assets/java_logo.png";
+import android from "./assets/android.png";
+import kotlin from "./assets/kotlin_logo.png";
+import python from "./assets/python_logo.png";
+import django from "./assets/django_badge.png";
+import reactjs from "./assets/react_js_logo.png";
+import mongodb from "./assets/mongo_db_logo.png";
+import springboot from "./assets/spring_boot_logo.png";
+import juniv from "./assets/jadavpur_uni_logo.png";
+import pkroy from "./assets/pk_roy_logo.jpeg";
+import jac from "./assets/jac_logo.jpeg";
 
 export const COLORS = {
   PUPLE_HIGHLIGHT: "#9E77ED",
@@ -29,7 +29,7 @@ export const EMAILJS = {
 
 export const PAGES = [
   "HOME",
-  "ABOUT",
+  "ABOUT ME",
   "EXPERIENCE",
   "PROJECTS",
   "SKILLS",

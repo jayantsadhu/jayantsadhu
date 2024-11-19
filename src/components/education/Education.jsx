@@ -1,6 +1,6 @@
 import { Box, Stack, Typography } from "@mui/material";
 import Educard from "./Educard";
-import { EDUCATION, COLORS } from "./../../userdata/configs";
+import { EDUCATION, COLORS } from "../../configs";
 
 const Education = () => {
   return (

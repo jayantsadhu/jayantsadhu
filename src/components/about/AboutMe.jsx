@@ -1,6 +1,6 @@
 import { Box, Paper, Stack, Typography } from "@mui/material";
-import { ABOUTME } from "./../../userdata/configs";
-import { COLORS } from "./../../userdata/configs";
+import { ABOUTME } from "../../configs";
+import { COLORS } from "../../configs";
 
 const AboutMe = () => {
   return (
