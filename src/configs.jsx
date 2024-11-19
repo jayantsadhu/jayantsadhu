@@ -27,6 +27,11 @@ export const EMAILJS = {
   USER_ID: "8Dk8tFuB_gzmAK5O9",
 };
 
+export const LINKS = {
+  RESUME:
+    "https://drive.google.com/file/d/17LlkVmzR0JUMSJT8vex_XXljDKcu8w5h/view?usp=sharing",
+};
+
 export const PAGES = [
   "HOME",
   "ABOUT ME",

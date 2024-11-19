@@ -16,7 +16,7 @@ import DownloadForOfflineIcon from "@mui/icons-material/DownloadForOffline";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import jayant from "../../assets/jayant.jpg";
-import { COLORS } from "../../configs";
+import { COLORS, LINKS } from "../../configs";
 
 const Home = () => {
   return (
@@ -142,6 +142,7 @@ const Home = () => {
                 <Stack spacing={1} direction={{ xs: "column", md: "row" }}>
                   <Button
                     variant="contained"
+                    href="#contact me"
                     sx={{
                       margin: "8px 0px",
                       width: "100%",
@@ -155,6 +156,8 @@ const Home = () => {
                   </Button>
                   <Button
                     variant="contained"
+                    href={LINKS.RESUME}
+                    target="_blank"
                     sx={{
                       margin: "8px 0px",
                       width: "100%",
