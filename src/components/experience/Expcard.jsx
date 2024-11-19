@@ -7,7 +7,8 @@ const Expcard = ({ row }) => {
     <Paper sx={{ backgroundColor: COLORS.CARD_SHADE, borderRadius: "16px" }}>
       <Box>
         <Button
-          href="#"
+          href={row.link}
+          target="_blank"
           sx={{
             textTransform: "none",
             fontWeight: "normal",

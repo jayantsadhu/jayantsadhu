@@ -52,6 +52,7 @@ export const EXPERIENCES = [
     dates: "Apr 2024 - Present",
     description:
       "I am working as one of the key members in the development and maintenance of the Client-core module of the SmartThings Android app, implemented the Android Repository Design Pattern in the Client-core module. SmartThings is Samsung’s smart home platform for connecting various IoT devices.",
+    link: "https://research.samsung.com/sri-b",
   },
   {
     title: "Samsung R&D Institute India Bangalore",
@@ -59,6 +60,7 @@ export const EXPERIENCES = [
     dates: "Jul 2022 - Mar 2024",
     description:
       "Developed an end-to-end Samsung QC collaboration dashboard using Django and React.js frameworks, facilitating smoother and faster production fixes for flagship SMRs. Also, Implemented Qualcomm modem code integration logic for Samsung production, carefully handling severe conflicts and build failures using Python.",
+    link: "https://research.samsung.com/sri-b",
   },
   {
     title: "Zemoso Technologies",
@@ -66,6 +68,7 @@ export const EXPERIENCES = [
     dates: "Mar 2022 - Jun 2022",
     description:
       "Worked in a full-stack team to develop key features of a production site. Learnt SOLID properties and best design practices. Key tech stacks used Java, Spring Boot and react.js.",
+    link: "https://www.zemosolabs.com/",
   },
 ];
 
@@ -75,18 +78,21 @@ export const PROJECTS = [
     projectDescription:
       "Developed this food delivery Android application, facilitating orders from diverse restaurants, featuring an extensive list of food selections, using Java in Android Studio.",
     image: food_curves,
+    link: "https://github.com/jayantsadhu/Food-Curves-app",
   },
   {
     projectName: "NewsX",
     projectDescription:
       "Developed this news android app that integrates REST APIs to fetch and display real-time news updates. Implemented seamless UI components for an engaging user experience and efficient data handling",
     image: news_app,
+    link: "https://github.com/jayantsadhu",
   },
   {
     projectName: "Conduit",
     projectDescription:
       "An application for content writers to share their knowledge on specific topics, along with comments and follow options for users to save and comeback later. It is similar to Medium blog writing application",
     image: conduit_app,
+    link: "https://github.com/jayantsadhu/medium-clone",
   },
 ];
 
