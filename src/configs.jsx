@@ -12,6 +12,8 @@ import springboot from "./assets/spring_boot_logo.png";
 import juniv from "./assets/jadavpur_uni_logo.png";
 import pkroy from "./assets/pk_roy_logo.jpeg";
 import jac from "./assets/jac_logo.jpeg";
+import samsung from "./assets/samsung_research.jpeg";
+import zemoso from "./assets/zemoso.jpeg";
 
 export const COLORS = {
   PUPLE_HIGHLIGHT: "#9E77ED",
@@ -53,6 +55,7 @@ export const EXPERIENCES = [
     description:
       "I am working as one of the key members in the development and maintenance of the Client-core module of the SmartThings Android app, implemented the Android Repository Design Pattern in the Client-core module. SmartThings is Samsung’s smart home platform for connecting various IoT devices.",
     link: "https://research.samsung.com/sri-b",
+    image: samsung,
   },
   {
     title: "Samsung R&D Institute India Bangalore",
@@ -61,6 +64,7 @@ export const EXPERIENCES = [
     description:
       "Developed an end-to-end Samsung QC collaboration dashboard using Django and React.js frameworks, facilitating smoother and faster production fixes for flagship SMRs. Also, Implemented Qualcomm modem code integration logic for Samsung production, carefully handling severe conflicts and build failures using Python.",
     link: "https://research.samsung.com/sri-b",
+    image: samsung,
   },
   {
     title: "Zemoso Technologies",
@@ -69,6 +73,7 @@ export const EXPERIENCES = [
     description:
       "Worked in a full-stack team to develop key features of a production site. Learnt SOLID properties and best design practices. Key tech stacks used Java, Spring Boot and react.js.",
     link: "https://www.zemosolabs.com/",
+    image: zemoso,
   },
 ];
 

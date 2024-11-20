@@ -1,4 +1,4 @@
-import { Box, Button, Paper, Stack, Typography } from "@mui/material";
+import { Avatar, Box, Button, Paper, Stack, Typography } from "@mui/material";
 import CallMadeIcon from "@mui/icons-material/CallMade";
 import { COLORS } from "../../configs";
 
@@ -17,21 +17,34 @@ const Expcard = ({ row }) => {
         >
           <Box padding={"20px"}>
             <Stack color={COLORS.TEXT}>
-              <Stack direction={"row"} justifyContent={"space-between"}>
-                <Typography fontSize={"1rem"} fontWeight={"bold"}>
-                  {row.title}
-                </Typography>
-                <CallMadeIcon />
+              <Stack direction={"row"} spacing={2}>
+                <Box>
+                  <Avatar
+                    sx={{ width: "48px", height: "48px" }}
+                    alt={row.title}
+                    src={row.image}
+                  />
+                </Box>
+                <Box width={"100%"}>
+                  <Stack direction={"row"} justifyContent={"space-between"}>
+                    <Typography fontSize={"1rem"} fontWeight={"bold"}>
+                      {row.title}
+                    </Typography>
+                    <CallMadeIcon />
+                  </Stack>
+                  <Typography color={COLORS.PUPLE_HIGHLIGHT}>
+                    {row.designation}
+                  </Typography>
+                </Box>
               </Stack>
-              <Typography color={COLORS.PUPLE_HIGHLIGHT}>
-                {row.designation}
-              </Typography>
-              <Typography marginTop={"10px"} color={COLORS.TEXT_SHADE}>
-                {row.description}
-              </Typography>
-              <Typography marginTop={"10px"} color={COLORS.TEXT_SHADE}>
-                {row.dates}
-              </Typography>
+              <Stack>
+                <Typography marginTop={"10px"} color={COLORS.TEXT_SHADE}>
+                  {row.description}
+                </Typography>
+                <Typography marginTop={"10px"} color={COLORS.TEXT_SHADE}>
+                  {row.dates}
+                </Typography>
+              </Stack>
             </Stack>
           </Box>
         </Button>

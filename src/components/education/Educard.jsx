@@ -51,6 +51,7 @@ const Educard = ({ row }) => {
           <Stack
             direction={{ xs: "row", sm: "column" }}
             spacing={{ xs: 2, sm: 0 }}
+            justifyContent={{ xs: "space-between", sm: "normal" }}
           >
             <Typography>{row.location}</Typography>
             <Typography color={COLORS.TEXT_SHADE}>{row.dates}</Typography>
