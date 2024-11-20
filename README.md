@@ -39,7 +39,7 @@ I do Competitive programming and working on design and development. An Engineer 
 <a href="https://www.leetcode.com/engineerkid29" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="engineerkid29" height="30" width="40" /></a>
 <a href="https://codeforces.com/profile/jayantKS29" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="jayantKS29" height="30" width="40" /></a>
 <a href="https://www.codechef.com/users/steve_rogers_1" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="jayantsadhu6" height="30" width="40" /></a>
-<a href="https://auth.geeksforgeeks.org/user/jayantsadhu6" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="jayantsadhu383" height="30" width="40" /></a>
+<a href="https://auth.geeksforgeeks.org/user/jayantsadhu6" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="jayantsadhu" height="30" width="40" /></a>
 </p>
 
 
