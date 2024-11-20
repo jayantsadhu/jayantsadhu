@@ -14,7 +14,7 @@ import { COLORS, EMAILJS } from "../../configs";
 import { useState } from "react";
 import emailjs from "emailjs-com";
 
-const ContactMe = () => {
+const ContactMe = ({ id }) => {
   const [formData, setFormdata] = useState({
     name: "",
     email: "",
@@ -57,6 +57,12 @@ const ContactMe = () => {
           .then(
             (resp) => {
               alert("Message has been sent successfully");
+              setFormdata({
+                name: "",
+                email: "",
+                subject: "",
+                message: "",
+              });
             },
             (error) => {
               alert("Failed to send message, please use direct mailing!");
@@ -69,9 +75,15 @@ const ContactMe = () => {
   };
 
   return (
-    <Box margin={{ xs: "25px 10px", sm: "50px 10px" }}>
+    <Box
+      id={id}
+      sx={{
+        scrollMarginTop: { xs: "400px", md: "100px" },
+      }}
+      margin={{ xs: "25px 10px", sm: "50px 10px" }}
+    >
       <Stack
-        sx={{ width: { xs: "95%", sm: "90%", md: "80%", lg: "70%" } }}
+        sx={{ width: { xs: "95%", sm: "90%", lg: "70%" } }}
         margin={"0 auto"}
         spacing={3}
       >

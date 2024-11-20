@@ -23,7 +23,7 @@ const MyNavbar = () => {
   };
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: COLORS.CARD_SHADE }}>
+    <AppBar position="sticky" sx={{ backgroundColor: COLORS.CARD_SHADE }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <IconButton
@@ -61,7 +61,7 @@ const MyNavbar = () => {
             variant="h6"
             noWrap
             component="a"
-            href="#"
+            href="#home"
             sx={{
               textAlign: "right",
               fontWeight: "bold",

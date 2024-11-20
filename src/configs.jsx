@@ -15,7 +15,7 @@ import jac from "./assets/jac_logo.jpeg";
 
 export const COLORS = {
   PUPLE_HIGHLIGHT: "#9E77ED",
-  CARD_SHADE: "#111927",
+  CARD_SHADE: "#131d2e",
   TEXT_SHADE: "#A0AEC0",
   TEXT: "#FFFFFF",
   HEADING_SHADE: "#7E8FA6",

@@ -2,15 +2,20 @@ import { Box, Paper, Stack, Typography } from "@mui/material";
 import { ABOUTME } from "../../configs";
 import { COLORS } from "../../configs";
 
-const AboutMe = () => {
+const AboutMe = ({ id }) => {
   return (
-    <Paper>
+    <Paper
+      id={id}
+      sx={{
+        scrollMarginTop: { xs: "400px", md: "100px" },
+      }}
+    >
       <Box
         sx={{ backgroundColor: COLORS.CARD_SHADE }}
         padding={{ xs: "50px 10px", sm: "100px 20px" }}
       >
         <Box
-          sx={{ width: { xs: "95%", sm: "90%", md: "80%", lg: "70%" } }}
+          sx={{ width: { xs: "95%", sm: "90%", lg: "70%" } }}
           margin="0 auto"
         >
           <Stack

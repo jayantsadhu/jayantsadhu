@@ -21,27 +21,13 @@ export const Layout = () => {
       </style>
       <Stack sx={{ backgroundColor: "#0e1320" }}>
         <MyNavbar />
-        <div id="home">
-          <Home />
-        </div>
-        <div id="about me">
-          <AboutMe />
-        </div>
-        <div id="experience">
-          <Experience />
-        </div>
-        <div id="projects">
-          <Projects />
-        </div>
-        <div id="skills">
-          <Skills />
-        </div>
-        <div id="education">
-          <Education />
-        </div>
-        <div id="contact me">
-          <ContactMe />
-        </div>
+        <Home id="home" />
+        <AboutMe id="about me" />
+        <Experience id="experience" />
+        <Projects id="projects" />
+        <Skills id="skills" />
+        <Education id="education" />
+        <ContactMe id="contact me" />
         <Footer />
       </Stack>
     </>

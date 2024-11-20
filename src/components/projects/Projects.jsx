@@ -2,11 +2,17 @@ import { Box, Stack, Typography } from "@mui/material";
 import Pjtcard from "./Pjtcard";
 import { PROJECTS, COLORS } from "../../configs";
 
-const Projects = () => {
+const Projects = ({ id }) => {
   return (
-    <Box margin={{ xs: "25px 10px", sm: "50px 10px" }}>
+    <Box
+      id={id}
+      margin={{ xs: "25px 10px", sm: "50px 10px" }}
+      sx={{
+        scrollMarginTop: { xs: "400px", md: "100px" },
+      }}
+    >
       <Stack
-        sx={{ width: { xs: "95%", sm: "90%", md: "80%", lg: "70%" } }}
+        sx={{ width: { xs: "95%", sm: "90%", lg: "70%" } }}
         margin={"0 auto"}
         spacing={3}
       >

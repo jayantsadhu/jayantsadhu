@@ -2,11 +2,17 @@ import { Box, Stack, Typography } from "@mui/material";
 import Expcard from "./Expcard";
 import { EXPERIENCES, COLORS } from "../../configs";
 
-const Experience = () => {
+const Experience = ({ id }) => {
   return (
-    <Box margin={{ xs: "50px 10px 25px 10px", sm: "100px 10px 50px 10px" }}>
+    <Box
+      id={id}
+      sx={{
+        scrollMarginTop: { xs: "400px", md: "100px" },
+      }}
+      margin={{ xs: "50px 10px 25px 10px", sm: "100px 10px 50px 10px" }}
+    >
       <Stack
-        sx={{ width: { xs: "95%", sm: "90%", md: "80%", lg: "70%" } }}
+        sx={{ width: { xs: "95%", sm: "90%", lg: "70%" } }}
         margin={"0 auto"}
         spacing={3}
       >

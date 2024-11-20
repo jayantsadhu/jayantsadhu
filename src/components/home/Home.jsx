@@ -15,15 +15,21 @@ import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import DownloadForOfflineIcon from "@mui/icons-material/DownloadForOffline";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import jayant from "../../assets/jayant.jpg";
+import jayant from "../../assets/jayant2.jpg";
 import { COLORS, LINKS } from "../../configs";
 
-const Home = () => {
+const Home = ({ id }) => {
   return (
-    <Box padding={{ xs: "50px 0px 50px 0px", sm: "60px 0px 100px 0px" }}>
+    <Box
+      sx={{
+        scrollMarginTop: "350px",
+      }}
+      id={id}
+      padding={{ xs: "50px 0px 50px 0px", sm: "60px 0px 100px 0px" }}
+    >
       <Container
         sx={{
-          width: { xs: "95%", sm: "90%", md: "80%", lg: "70%" },
+          width: { xs: "95%", sm: "90%", lg: "70%" },
           margin: "0 auto",
         }}
       >
@@ -32,7 +38,11 @@ const Home = () => {
           spacing={3}
           padding={{ xs: "10px 0px", sm: "20px 0px" }}
         >
-          <Grid xs={12} md={6} margin={"0 auto"}>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            margin={"0 auto"}
+            order={{ xs: 1, md: 2 }}
+          >
             <Box
               sx={{
                 display: "grid",
@@ -54,7 +64,11 @@ const Home = () => {
               />
             </Box>
           </Grid>
-          <Grid xs={12} md={6} margin={"0 auto"}>
+          <Grid
+            size={{ xs: 12, md: 6 }}
+            margin={"0 auto"}
+            order={{ xs: 2, md: 1 }}
+          >
             <Box
               sx={{
                 padding: "20px 0px",
@@ -88,8 +102,9 @@ const Home = () => {
                     Jayant Kumar Sadhu
                   </span>
                   . A passionate Android, Full-Stack Java Developer and blog
-                  writer based in India📍. I feel most satisfaction and thrive
-                  on new challenges, keeping the learning curve exponent.
+                  writer based in India📍. I feel most satisfaction when
+                  challeged and thrive on it, keeping the learning curve
+                  exponent.
                 </Typography>
                 <Box>
                   <Stack direction={"row"} spacing={1}>
@@ -139,7 +154,7 @@ const Home = () => {
                     </a>
                   </Stack>
                 </Box>
-                <Stack spacing={1} direction={{ xs: "column", md: "row" }}>
+                <Stack spacing={1} direction={{ xs: "column", lg: "row" }}>
                   <Button
                     variant="contained"
                     href="#contact me"
