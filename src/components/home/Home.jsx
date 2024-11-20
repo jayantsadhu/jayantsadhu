@@ -17,12 +17,16 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import jayant from "../../assets/jayant2.jpg";
 import { COLORS, LINKS } from "../../configs";
+// import bg from "./../../assets/bg.jpg";
 
 const Home = ({ id }) => {
   return (
     <Box
       sx={{
         scrollMarginTop: "350px",
+        // backgroundImage: `url(${bg})`,
+        // backgroundRepeat: "no-repeat",
+        // backgroundSize: "cover",
       }}
       id={id}
       padding={{ xs: "50px 0px 50px 0px", sm: "60px 0px 100px 0px" }}
