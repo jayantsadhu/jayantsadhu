@@ -14,7 +14,7 @@ I do Competitive programming and working on design and development. An Engineer 
 
 ## 🥷🏻 Skills and Experience
 
-- ☕ Java, Android, Kotlin, Python, React.js, MongoDB, Django
+- ☕ Java, Spring Boot, Android, Python, React.js, MongoDB
 - 👨🏽‍💻 Full Stack Developer (React-js, Django, Spring Boot)
 - 📱 Android Developer
 - 💻 Automation System
